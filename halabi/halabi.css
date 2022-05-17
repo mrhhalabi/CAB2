@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(imgs/background.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+	background-repeat: repeat-y;
+
+}
+.logo{
+	height: 110px;
+	width: 110px;
+	-cursor: pointer;
+	padding-right: 60px;
+	padding-top: 30px;
+}
+.nav_bar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	align-items: center;
+	display: flex;
+}
+.cart{
+	width: 40px;
+	-cursor: pointer;
+	margin: 0px 20px;
+}
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	font-family: 'Cairo', sans-serif;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Cairo', sans-serif;
+	font-weight: bold;
+}
+.content h3{
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #232d60;
+	font-family: 'Staatliches', cursive;
+}
+.content img{
+	float: right;
+	height: 50vh;
+	width: 120px;
+}
+.content #english{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.content .button{
+	display: inline-block;
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 8px 22px rgba(94,28,68,15);
+}
+.person .button2{
+	display: inline-block;
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 8px 22px rgba(94,28,68,15);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 100px;
+	float: center;
+   font-family: 'Staatliches', cursive; 
+}
+#about{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.services .button3{
+	display: inline-block;
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 8px 22px rgba(94,28,68,15);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 100px;
+	float: center;
+   font-family: 'Staatliches', cursive; 
+}
+
+.gallery{
+	/* Position the image container (needed to position the left and right arrows) */
+
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+ .projects
+{
+    padding: 50px 30px 30px 30px;
+}
+.projects hr
+{
+    width: 98.8%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.dad
+{
+    width: 100%;
+    overflow: auto;
+}
+.son img
+{
+    width: 100%;
+    display: block;
+    
+}
+.son p
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: #ffccff;
+    color: black;
+    padding: 7px 15px;
+}
+.son
+{
+    
+    width: 24%;
+    position: relative;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%; 
+}
+.projects_class
+{
+    margin: 0;
+    font-size: 25px;
+}
+
+.about
+{
+    padding: 30px;
+    padding-bottom: 300px;
+}
+.about hr
+{
+    width: 98.8%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+nav .menue{
+	display: inline-block;
+  background: linear-gradient(45deg,#87adfe,#ff77cd);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 3px 8px 22px rgba(94,28,68,15);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: center;
+   font-family: 'Staatliches', cursive; }
+video{
+	margin-left: 400px;
+}
+.c{
+	width: 90px;
+	height: 90px;
+	padding-left: 230px;
+}
+.button5{
+display: inline-block;
+  background: linear-gradient(45deg,#87adfe,#ff77cd);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 3px 8px 22px rgba(94,28,68,15);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 100px;
+  float: center;
+   font-family: 'Staatliches', cursive; }
+.url .button{
+	padding-left: 100px;
+	display: inline-block;
+  background: #ffccff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 3px 8px 22px rgba(94,28,68,15);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 220px;
+  float: center;
+  margin: 210;
+  float: center;
+   font-family: 'Staatliches', cursive;  
+}
